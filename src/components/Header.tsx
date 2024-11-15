@@ -40,7 +40,7 @@ export function Header() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-<img className='max-w-5' src={sixtyImage} alt="Description de l'image" />
+<img className='max-w-10' src={sixtyImage} alt="Description de l'image" />
 </motion.h1>
               </Link>
             </div>
