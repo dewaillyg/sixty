@@ -5,6 +5,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Sidebar } from './Sidebar';
 import { mockUsers } from '../data/mock';
 
+import sixtyImage from '../sixty.png';
+
 export function Header() {
   const location = useLocation();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -38,8 +40,8 @@ export function Header() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <img src="/src/sixty.png" />
-                </motion.h1>
+<img src={sixtyImage} alt="Description de l'image" />
+</motion.h1>
               </Link>
             </div>
             
