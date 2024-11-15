@@ -38,7 +38,7 @@ export function Header() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <img src="/sixty.png" />
+                  <img src="/src/sixty.png" />
                 </motion.h1>
               </Link>
             </div>
