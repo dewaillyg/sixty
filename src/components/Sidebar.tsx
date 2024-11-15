@@ -8,6 +8,9 @@ interface SidebarProps {
   onClose: () => void;
 }
 
+import sixtyImage from '../sixty.png';
+
+
 const menuItems = [
   { icon: <Home className="h-5 w-5" />, label: 'Home', path: '/' },
   { icon: <PlusCircle className="h-5 w-5" />, label: 'Create Ad', path: '/create' },
@@ -38,7 +41,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             className="fixed left-0 top-0 bottom-0 w-64 bg-white shadow-lg z-50"
           >
             <div className="p-4 flex justify-between items-center border-b">
-              <h2 className="text-xl font-bold text-blue-600">Sixty</h2>
+            <img className='max-w-28' src={sixtyImage} alt="Description de l'image" />
               <button
                 onClick={onClose}
                 className="p-2 rounded-lg hover:bg-gray-100"
