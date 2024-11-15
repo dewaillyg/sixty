@@ -42,7 +42,7 @@ export function Messages() {
                 <input
                   type="text"
                   placeholder="Search messages..."
-                  className="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
             </div>
@@ -54,7 +54,7 @@ export function Messages() {
                     key={message.id}
                     onClick={() => setSelectedChat(message)}
                     className={`w-full p-4 flex items-start space-x-3 hover:bg-gray-50 transition-colors ${
-                      selectedChat.id === message.id ? 'bg-indigo-50' : ''
+                      selectedChat.id === message.id ? 'bg-blue-50' : ''
                     }`}
                   >
                     <img
@@ -70,7 +70,7 @@ export function Messages() {
                       <p className="text-sm text-gray-500 truncate">{message.lastMessage}</p>
                     </div>
                     {message.unread && (
-                      <span className="w-2.5 h-2.5 bg-indigo-600 rounded-full flex-shrink-0" />
+                      <span className="w-2.5 h-2.5 bg-blue-600 rounded-full flex-shrink-0" />
                     )}
                   </button>
                 );
@@ -119,9 +119,9 @@ export function Messages() {
                 <input
                   type="text"
                   placeholder="Type a message..."
-                  className="flex-1 border border-gray-200 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="flex-1 border border-gray-200 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
-                <button className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
+                <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                   Send
                 </button>
               </div>

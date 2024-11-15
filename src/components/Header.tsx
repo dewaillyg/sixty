@@ -28,13 +28,13 @@ export function Header() {
                 className="p-2 rounded-lg hover:bg-gray-100 relative"
               >
                 <Menu className="h-6 w-6 text-gray-600" />
-                <span className="absolute top-0 right-0 block h-4 w-4 rounded-full bg-indigo-600 text-white text-xs flex items-center justify-center">
+                <span className="absolute top-0 right-0 block h-4 w-4 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">
                   8
                 </span>
               </motion.button>
               <Link to="/" className="ml-3">
                 <motion.h1 
-                  className="text-2xl font-bold text-indigo-600"
+                  className="text-2xl font-bold text-blue-600"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -49,7 +49,7 @@ export function Header() {
                 <input
                   type="text"
                   placeholder="Search for services nearby..."
-                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-full bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-full bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 />
               </div>
             </div>
@@ -118,7 +118,7 @@ export function Header() {
 
               <Link to="/create">
                 <motion.button 
-                  className="flex items-center px-4 py-2 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors"
+                  className="flex items-center px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >

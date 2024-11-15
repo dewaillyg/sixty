@@ -38,7 +38,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             className="fixed left-0 top-0 bottom-0 w-64 bg-white shadow-lg z-50"
           >
             <div className="p-4 flex justify-between items-center border-b">
-              <h2 className="text-xl font-bold text-indigo-600">Sixty</h2>
+              <h2 className="text-xl font-bold text-blue-600">Sixty</h2>
               <button
                 onClick={onClose}
                 className="p-2 rounded-lg hover:bg-gray-100"
@@ -53,12 +53,12 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
                     <Link
                       to={item.path}
                       onClick={onClose}
-                      className="flex items-center px-4 py-2 text-gray-700 hover:bg-indigo-50 rounded-lg group transition-colors"
+                      className="flex items-center px-4 py-2 text-gray-700 hover:bg-blue-50 rounded-lg group transition-colors"
                     >
-                      <span className="group-hover:text-indigo-600">{item.icon}</span>
-                      <span className="ml-3 group-hover:text-indigo-600">{item.label}</span>
+                      <span className="group-hover:text-blue-600">{item.icon}</span>
+                      <span className="ml-3 group-hover:text-blue-600">{item.label}</span>
                       {item.badge && (
-                        <span className="ml-auto bg-indigo-100 text-indigo-600 py-1 px-2 rounded-full text-xs">
+                        <span className="ml-auto bg-blue-100 text-blue-600 py-1 px-2 rounded-full text-xs">
                           {item.badge}
                         </span>
                       )}

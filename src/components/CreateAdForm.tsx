@@ -31,7 +31,7 @@ export function CreateAdForm() {
           <label className="block text-sm font-medium text-gray-700">Title</label>
           <input
             type="text"
-            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
             placeholder="What do you need help with?"
           />
         </div>
@@ -49,7 +49,7 @@ export function CreateAdForm() {
                 }}
                 className={`flex items-center justify-center px-4 py-2 border rounded-md ${
                   selectedCategory === category.id
-                    ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
+                    ? 'border-blue-500 bg-blue-50 text-blue-700'
                     : 'border-gray-300 text-gray-700 hover:bg-gray-50'
                 }`}
               >
@@ -64,7 +64,7 @@ export function CreateAdForm() {
           <label className="block text-sm font-medium text-gray-700">Description</label>
           <textarea
             rows={4}
-            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
             placeholder="Provide more details about your request..."
           />
         </div>
@@ -80,7 +80,7 @@ export function CreateAdForm() {
                 type="number"
                 min="0"
                 step="0.01"
-                className="pl-10 block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+                className="pl-10 block w-full rounded-md border-gray-300 focus:border-blue-500 focus:ring-blue-500"
                 placeholder="0.00"
               />
               <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
@@ -100,7 +100,7 @@ export function CreateAdForm() {
                 onClick={() => setSelectedDuration(duration)}
                 className={`flex items-center justify-center px-3 py-2 border rounded-md ${
                   selectedDuration === duration
-                    ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
+                    ? 'border-blue-500 bg-blue-50 text-blue-700'
                     : 'border-gray-300 text-gray-700 hover:bg-gray-50'
                 }`}
               >
@@ -117,7 +117,7 @@ export function CreateAdForm() {
             <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
             <input
               type="text"
-              className="pl-10 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="pl-10 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               placeholder="Enter your location"
             />
           </div>
@@ -129,7 +129,7 @@ export function CreateAdForm() {
             <div className="space-y-1 text-center">
               <Upload className="mx-auto h-12 w-12 text-gray-400" />
               <div className="flex text-sm text-gray-600">
-                <label className="relative cursor-pointer rounded-md bg-white font-medium text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:text-indigo-500">
+                <label className="relative cursor-pointer rounded-md bg-white font-medium text-blue-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2 hover:text-blue-500">
                   <span>Upload files</span>
                   <input type="file" className="sr-only" multiple accept="image/*" />
                 </label>
@@ -143,7 +143,7 @@ export function CreateAdForm() {
         <div className="flex justify-end">
           <button
             type="submit"
-            className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
             Post Ad
           </button>

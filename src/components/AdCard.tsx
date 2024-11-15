@@ -30,7 +30,7 @@ export function AdCard({ ad, user }: AdCardProps) {
             <p className="text-sm text-gray-500 mt-1">{ad.description}</p>
           </div>
           {ad.price && (
-            <span className="text-lg font-bold text-indigo-600">
+            <span className="text-lg font-bold text-blue-600">
               ${ad.price.toFixed(2)}
             </span>
           )}
@@ -66,7 +66,7 @@ export function AdCard({ ad, user }: AdCardProps) {
             </div>
           </div>
           
-          <button className="px-4 py-2 bg-indigo-600 text-white text-sm font-medium rounded-full hover:bg-indigo-700 transition-colors">
+          <button className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-full hover:bg-blue-700 transition-colors">
             Accept
           </button>
         </div>

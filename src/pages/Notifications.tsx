@@ -61,7 +61,7 @@ export function Notifications() {
         <div className="bg-white rounded-xl shadow-sm overflow-hidden">
           <div className="p-4 border-b flex items-center justify-between">
             <h2 className="text-lg font-semibold text-gray-900">Notifications</h2>
-            <button className="text-sm text-indigo-600 hover:text-indigo-700">
+            <button className="text-sm text-blue-600 hover:text-blue-700">
               Mark all as read
             </button>
           </div>
@@ -75,7 +75,7 @@ export function Notifications() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   className={`p-4 flex items-start space-x-4 ${
-                    notification.read ? 'bg-white' : 'bg-indigo-50'
+                    notification.read ? 'bg-white' : 'bg-blue-50'
                   }`}
                 >
                   <div className="flex-shrink-0">

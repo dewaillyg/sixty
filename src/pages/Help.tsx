@@ -47,7 +47,7 @@ export function Help() {
     <PageTransition>
       <div className="max-w-4xl mx-auto space-y-6">
         {/* Search Section */}
-        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl p-6 md:p-8">
+        <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-6 md:p-8">
           <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
             How can we help you?
           </h1>
@@ -68,7 +68,7 @@ export function Help() {
               key={option.title}
               className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow text-left"
             >
-              <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-600 mb-4">
+              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-4">
                 {option.icon}
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -83,7 +83,7 @@ export function Help() {
         <div className="bg-white rounded-xl shadow-sm overflow-hidden">
           <div className="p-6 border-b">
             <div className="flex items-center space-x-2">
-              <HelpCircle className="w-6 h-6 text-indigo-600" />
+              <HelpCircle className="w-6 h-6 text-blue-600" />
               <h2 className="text-xl font-semibold text-gray-900">
                 Frequently Asked Questions
               </h2>

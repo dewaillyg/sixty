@@ -10,7 +10,7 @@ export function Profile() {
     <PageTransition>
       <div className="max-w-4xl mx-auto py-8">
         <div className="bg-white rounded-xl shadow-sm overflow-hidden">
-          <div className="h-32 bg-gradient-to-r from-indigo-500 to-purple-600" />
+          <div className="h-32 bg-gradient-to-r from-blue-500 to-purple-600" />
           <div className="px-6 py-4">
             <div className="flex items-center">
               <img
